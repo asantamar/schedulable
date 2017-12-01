@@ -1,0 +1,29 @@
+es:
+  model:
+    schedule: 'Programación'
+
+  activerecord:
+    attributes:
+      schedule:
+        name: Nombre
+        rule: Regel
+        time: Hora
+        date: Fecha
+        rule: Regla
+        day: Días
+        day_of_week: Días para cada semana
+        until: Repetir hasta
+        count: Cuenta de repetición
+
+  schedulable:
+    monthly_week_names:
+      1st: '1ª'
+      2nd: '2ª'
+      3rd: '3ª'
+      4th: '4ª'
+      last: 'Últ.'
+    rules:
+      singular: Una vez
+      monthly: Mensual
+      weekly: Semanal
+      daily: Diaria

@@ -1,10 +1,10 @@
-de: 
+de:
   model:
     schedule: 'Zeitplan'
-    
+
   activerecord:
     attributes:
-      schedule: 
+      schedule:
         name: Name
         rule: Regel
         time: Uhrzeit
@@ -14,15 +14,15 @@ de:
         interval: Intervall
         until: Wiederholen bis
         count: Anzahl Wiederholungen
-        
-  schedulable: 
+
+  schedulable:
     monthly_week_names:
       1st: '1.'
       2nd: '2.'
       3rd: '3.'
       4th: '4.'
       last: 'L'
-    rules: 
+    rules:
       singular: Einmalig
       monthly: Monatlich
       weekly: Wöchentlich
